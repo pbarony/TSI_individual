@@ -1,4 +1,6 @@
-class CSVFileObject:
+from DataSource.CSVFileInterface import CSVFileInterface
+
+class CSVFileObject(CSVFileInterface):
 
     filePathPrefix = "resource/"
 

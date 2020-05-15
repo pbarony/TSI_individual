@@ -1,4 +1,7 @@
-class CSVFileObjectFake:
+from DataSource.CSVFileInterface import CSVFileInterface
+
+
+class CSVFileObjectFake(CSVFileInterface):
 
     filePathPrefix = "resource/"
 

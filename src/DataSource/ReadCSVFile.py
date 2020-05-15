@@ -1,11 +1,8 @@
 import csv
-import subprocess
-import os
-
 from DataSource.CSVFileObject import CSVFileObject
 
 
-class ReadCSVFile :
+class ReadCSVFile():
 
     filePathPrefix = "resource/"
 
